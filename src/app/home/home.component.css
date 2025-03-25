@@ -19,6 +19,4 @@
   position: relative;
   /* que se ponga encima del video */
   z-index: 1;
-  text-align: center;
-  color: white;
 }
