@@ -1,5 +1,7 @@
+<!-- NAV - Header que se expanda cuando sea mayor que a tamaños medianos -->
 <nav class="navbar navbar-expand-md bg-secondary d-flex w-100 p-3">
   <div class="d-flex w-100 justify-content-between align-items-center">
+    <!-- LOGO Que siempre se vera. -->
     <div>
       <img
         src="https://img.freepik.com/vector-premium/simbolo-avion-abstracto-hermoso-diseno-ilustracion-vectorial-fondo-amarillo_90697-4972.jpg"
@@ -7,16 +9,20 @@
         class="rounded"
       />
     </div>
+    <!-- Boton que solo se ve si ha colapsado el navbar menos que tamaño que MD -->
     <button
       class="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarNav"
     >
+      <!-- collapse es la accion que realizara y el target es lo que tiene que colapsar y descolapsar -->
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
+  <!-- solo se vera si colapsa tras mostrar el boton y que realize la accion -->
   <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- esto se ve en expand tambien -->
     <ul
       class="navbar-nav w-100 d-flex gap-4 justify-content-end align-items-end"
     >
