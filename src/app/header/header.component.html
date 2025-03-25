@@ -1,7 +1,42 @@
-<nav
-  class="text-warning lead bg-dark d-flex w-100 justify-content-end align-items-end gap-5 p-3"
->
-  <a>Inicio</a>
-  <a>Viajes</a>
-  <a>Calendario</a>
+<nav class="navbar navbar-expand-md bg-secondary d-flex w-100 p-3">
+  <div class="d-flex w-100 justify-content-between align-items-center">
+    <div>
+      <img
+        src="https://img.freepik.com/vector-premium/simbolo-avion-abstracto-hermoso-diseno-ilustracion-vectorial-fondo-amarillo_90697-4972.jpg"
+        width="70"
+        class="rounded"
+      />
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav w-100 d-flex justify-content-end align-items-end">
+      <li class="nav-item lead">
+        <a class="nav-link text-decoration-none text-warning" routerLink="/home"
+          >Inicio</a
+        >
+      </li>
+      <li class="nav-item lead">
+        <a
+          class="nav-link text-decoration-none text-warning"
+          routerLink="/viajes"
+          >Viajes</a
+        >
+      </li>
+      <li class="nav-item lead">
+        <a
+          class="nav-link text-decoration-none text-warning"
+          routerLink="/calendario"
+          >Calendario</a
+        >
+      </li>
+    </ul>
+  </div>
 </nav>
